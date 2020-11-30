@@ -1,0 +1,37 @@
+<!--Выровнять по центру элемент <h1>.
+    Удалить подчеркивание из ссылки.
+    Установить стиль текста для <h1> прописные буквы, и текст для < p> заглавные буквы. 
+    Установить для страницы шрифт "Courier New", а для <h1> - "Verdana".  
+    Установить элемент <p> в тексте "italic". 
+    Установить размер шрифта для страницы в "20px", а размер шрифта для <h1> в "3em".
+    Установить элементы <p> жирным шрифтом.  -->
+    <!DOCTYPE html> 
+    <html> 
+        <head> 
+            <style> 
+            h1{
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 3em;
+            }
+            p{
+                text-transform: lowercase;
+                font-family: 'Courier New', Courier, monospace;
+                font-style: italic;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+            }
+            </style> 
+        </head> 
+        <body> 
+            <h1>Это Заголовок</h1> 
+            <p>Это параграф.</p> 
+            <p>Это еще параграф.</p>
+            <p><a href="/css_text.php">Учебник CSS Текст</a></p>  
+        </body> 
+    </html> 
+    
